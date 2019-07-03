@@ -1,0 +1,20 @@
+#NEXUS
+
+Begin data;
+Dimensions ntax=11 nchar=22;
+Format datatype=Standard symbols="0 1 2" missing=? gap=-;
+Matrix
+Acanthoponera_minor   2210200121201222220011
+Amblyopone_pallipes   2210200121201222220011
+Apomyrma_stygia   2210200121201222220011
+Formica_fusca   2210200121201222220011
+Leptanilla_swani   2210200121201222220011
+Metapolybia_cingulata   2210200121201222220011
+Myrmica_americana   2210200121201222220011
+Nothomyrmecia_macrops   2210200121201222220011
+Paraponera_clavata   2210200121201222220011
+Platythyrea_punctata   2210200121201222220011
+Tatuidris_tatusia   2210200121201222220011
+;
+End;
+
