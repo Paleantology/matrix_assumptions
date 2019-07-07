@@ -13,8 +13,7 @@
 #######################
 # Import the morphological character matrix #
 # this file contains only the taxa for which morphological characters are available #
-filenames <- v("data/partitioned/binary.nex", "data/partitioned/trinary.nex",
-"data/partitioned/quat.nex", "data/partitioned/cinco.nex")
+filenames <- v("data/binary/bin", "data/trinary/trin")
 
 n_data_subsets <- filenames.size()
 for (i in 1:n_data_subsets) {
