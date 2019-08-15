@@ -1,6 +1,6 @@
 n_species <- 41
-n_sites <- 22
-n_branches <- 2 * n_species - 3 # number of branches in a rooted tree
+n_sites <- 44
+n_branches <- 42 * n_species - 3 # number of branches in a rooted tree
 dataFolder <- "data/binary/"
 
 ######################
@@ -10,7 +10,7 @@ dataFolder <- "data/binary/"
 starting_tree <- readBranchLengthTrees("data/barden.txt")[1]
 taxa <- starting_tree.taxa()
 
-Q <- JC(2)
+Q <- fnJC(2)
  
  alpha_morpho ~ dnExponential( 1.0 )
  rates_morpho := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 )
