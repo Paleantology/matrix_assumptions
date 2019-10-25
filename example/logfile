@@ -1,0 +1,12 @@
+Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
+2	:	1571759100.417	    39.184	0	14300	139	0	./single_rb.sh 5 91.nex
+1	:	1571759100.415	    40.989	0	14231	139	0	./single_rb.sh 5 90.nex
+3	:	1571759100.418	    42.184	0	14113	0	0	./single_rb.sh 5 92.nex
+4	:	1571759100.420	    43.685	0	13980	0	0	./single_rb.sh 5 93.nex
+5	:	1571759139.605	    40.674	0	14357	139	0	./single_rb.sh 5 94.nex
+6	:	1571759141.409	    39.162	0	14131	0	0	./single_rb.sh 5 95.nex
+7	:	1571759142.607	    42.177	0	13884	0	0	./single_rb.sh 5 96.nex
+8	:	1571759144.110	    41.270	0	13808	0	0	./single_rb.sh 5 97.nex
+10	:	1571759180.574	    40.685	0	13965	0	0	./single_rb.sh 5 99.nex
+9	:	1571759180.285	    41.876	0	13828	0	0	./single_rb.sh 5 98.nex
+11	:	1571759184.789	    39.786	0	14216	0	0	./single_rb.sh 5 9.nex

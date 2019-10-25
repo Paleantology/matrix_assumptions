@@ -1,0 +1,81 @@
+################################################################################
+#
+# RevBayes Example: Inferring a Phylogeny of Fossil Bears Using the Mk Model
+# 
+# This file: Runs the full MCMC ...
+#
+# authors:  April M. Wright, Michael J. Landis
+#
+################################################################################
+
+#######################
+# Reading in the Data #
+#######################
+# Import the morphological character matrix #
+# this file contains only the taxa for which morphological characters are available #
+
+if (!exists("strbin")) "ERROR: `strbin` undefined"
+if (!exists("strtri")) "ERROR: `strtri` undefined"
+if (!exists("procid")) "ERROR: `procid` undefined"
+
+#strbin <- "data/binary/bin"
+#strtri <- "data/trinary/trin"
+#strbin <- strbin
+#strtri <- strtri
+strtri 
+strbin
+procid
+
+#q()
+
+filenames <- v(strbin, strtri)
+
+n_data_subsets <- filenames.size()
+for (i in 1:n_data_subsets) {
+    data[i] = readDiscreteCharacterData(filenames[i])
+}
+
+
+## helpers
+mvi = 1
+mni = 1
+taxa <- data[1].names()
+n_taxa <- taxa.size()
+n_branches <- 2 * n_taxa - 3
+
+# Load the model files
+source("model_simple.Rev") # Morphological character change model
+
+########
+# MCMC #
+########
+
+# initialize the model object #
+mymodel = model(phylogeny)
+# Create a vector of monitors #
+# 1. for the full model #
+monitors[mni++] = mnModel(filename="output/part_out/" + procid + ".simple.log", printgen=10)
+# 2. the tree #
+treesfile = "output/part_out/simple." + procid + ".trees"
+#monitors[mni++] = mnFile(filename="output/part_out/simple.trees", printgen=10, phylogeny)
+monitors[mni++] = mnFile(filename=treesfile, printgen=10, phylogeny)
+# 3. and a few select parameters to be printed to the screen #
+monitors[mni++] = mnScreen(printgen=100)
+
+# Initialize the MCMC object #
+mymcmc = mcmc(mymodel, monitors, moves)
+
+# Run the MCMC #
+#mymcmc.run(generations=300000)
+mymcmc.run(generations=300)
+
+# Read in the tree trace and construct the consensus tree tree #
+trace = readTreeTrace(treesfile, treetype="non-clock")
+trace.setBurnin(0.25)
+
+# Summarize tree trace and the consensus tree to file
+mapTree(trace, file="output/part_out/simple.map."+procid+".tre")
+consensusTree(trace, file="output/part_out/simple.majrule."+procid+".tre")
+
+# Quit RevBayes #
+q()
