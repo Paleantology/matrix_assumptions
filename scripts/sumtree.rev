@@ -1,0 +1,3 @@
+trace = readTreeTrace("trees")
+mccTree(trace, "mcc.tre")
+(q)
