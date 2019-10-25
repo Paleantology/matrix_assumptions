@@ -1,0 +1,46 @@
+#!/bin/bash
+#PBS -q workq
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=72:00:00
+#PBS -N cinco_unpt1
+#PBS -o cinco_unpart1.out
+#PBS -j oe
+#PBS -A loni_antfbf
+#PBS -m abe
+#PBS -M courtney.grigsby@selu.edu
+
+
+datapath=/work/tyler333/matrix_assumptions/data/cinco/unpart_data/1/
+cd $datapath
+
+for file in *.nex
+do
+echo $file
+if [[ -f /work/tyler333/matrix_assumptions/data/cinco/unpart_data/binary/"$file" ]] && [[ -f /work/tyler333/matrix_assumptions/data/cinco/unpart_data/trinary/"$file" ]] &&
+[[ -f /work/tyler333/matrix_assumptions/data/cinco/unpart_data/quat/"$file" ]];
+then echo $file
+cp $file bin
+sed 's/0 1/0 1 2 3 4/g' bin > bin_repl
+cp $file trin
+sed 's/0 1 2/0 1 2 3 4/g' trin > trin_repl
+cp $file qut
+sed 's/0 1 2 3/0 1 2 3 4/g' qut > qut_repl
+
+cp  /work/tyler333/matrix_assumptions/data/cinco/unpart_data/1/"$file"  /work/tyler333/matrix_assumptions/data/cinco/unpart_data/1/cin
+
+mpirun -np 5 ~/rb-mpi /work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_unpartitioned/mcmc_simple.Rev
+
+fi
+
+mv /work/tyler333/matrix_assumptions/data/cinco/unpart_data/1/output/unpart_out/simple.log /work/tyler333/matrix_assumptions/output/cinco/unpartitioned/$file.log
+mv /work/tyler333/matrix_assumptions/data/cinco/unpart_data/1/output/unpart_out/simple.trees /work/tyler333/matrix_assumptions/output/cinco/unpartitioned/$file.trees
+mv /work/tyler333/matrix_assumptions/data/cinco/unpart_data/1/output/unpart_out/simple.map.tre /work/tyler333/matrix_assumptions/output/cinco/unpartitioned/$file.map.tre
+mv /work/tyler333/matrix_assumptions/data/cinco/unpart_data/1/output/unpart_out/simple.majrule.tre /work/tyler333/matrix_assumptions/output/cinco/unpartitioned/$file.majrule.tre
+
+#mv /work/tyler333/matrix_assumptions/data/cinco/unpart_data/1/"$file" /work/tyler333/matrix_assumptions/data/cinco/unpart_data/processed/"$file"
+done
+
+
+
+
+

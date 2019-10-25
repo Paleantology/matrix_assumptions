@@ -1,0 +1,47 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    709504.qb3
+Username:  tyler333
+Group:     loniusers
+Date:      22-Oct-2019 10:49
+Node:      qb391 (39607)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb391
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb391 10:49:09 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 22-Oct-2019 10:49:09
+------------------------------------------------------
+/var/spool/torque/mom_priv/jobs/709504.qb3.SC: line 25: syntax error near unexpected token `('
+/var/spool/torque/mom_priv/jobs/709504.qb3.SC: line 25: `comm -12 (sort bin.txt) (sort tri.txt) |'
+------------------------------------------------------
+Running PBS epilogue script    - 22-Oct-2019 10:49:09
+------------------------------------------------------
+Checking node qb391 (MS)
+Checking node qb391 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 22-Oct-2019 10:49:11
+------------------------------------------------------
+Exit Status:     2
+Job ID:          709504.qb3
+Username:        tyler333
+Group:           loniusers
+Job Name:        test
+Session Id:      39606
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:02
+Queue Used:      workq
+Account String:  loni_antfbf
+Node:            qb391
+Process id:      40218
+------------------------------------------------------

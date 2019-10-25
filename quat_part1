@@ -1,0 +1,38 @@
+#!/bin/bash
+#PBS -q workq
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=72:00:00
+#PBS -N quat_pt1
+#PBS -o quat_part1.out
+#PBS -j oe
+#PBS -A loni_antfbf
+#PBS -m abe
+#PBS -M courtney.grigsby@selu.edu
+
+#path to data not scripts(pwd)
+datapath=/work/tyler333/matrix_assumptions/data/quaternary/1/
+cd $datapath
+
+
+for file in *.nex
+do
+echo $file
+if [[ -f /work/tyler333/matrix_assumptions/data/quaternary/binary/"$file" ]] && [[ -f /work/tyler333/matrix_assumptions/data/quaternary/trinary/"$file" ]];
+then echo $file
+cp $file quat
+cp  /work/tyler333/matrix_assumptions/data/quaternary/binary/"$file"  /work/tyler333/matrix_assumptions/data/quaternary/binary/bin
+cp  /work/tyler333/matrix_assumptions/data/quaternary/trinary/"$file"  /work/tyler333/matrix_assumptions/data/quaternary/trinary/trin
+
+mpirun -np 20 ~/rb-mpi /work/tyler333/matrix_assumptions/scripts/quat/quat_analytical_partitioned/mcmc_simple.Rev
+fi
+
+
+mv /work/tyler333/matrix_assumptions/data/quaternary/1/output/part_out/simple.trees /work/tyler333/matrix_assumptions/output/quat/partitioned/$file.trees
+mv /work/tyler333/matrix_assumptions/data/quaternary/1/output/part_out/simple.log /work/tyler333/matrix_assumptions/output/quat/partitioned/$file.log
+
+
+mv /work/tyler333/matrix_assumptions/data/quaternary/1/"$file"  /work/tyler333/matrix_assumptions/data/quaternary/processed/"$file"
+
+done
+
+

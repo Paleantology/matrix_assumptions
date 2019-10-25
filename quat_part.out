@@ -1,0 +1,93 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    690454.qb3
+Username:  tyler333
+Group:     loniusers
+Date:      03-Sep-2019 07:33
+Node:      qb021 (51893)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb021
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb021 07:33:29 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 03-Sep-2019 07:33:29
+------------------------------------------------------
+/work/tyler333/matrix_assumptions/data/quaternary/1/100.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/100.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/100.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/100.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/10.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/10.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/10.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/10.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/11.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/11.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/11.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/11.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/12.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/12.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/12.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/12.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/13.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/13.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/13.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/13.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/14.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/14.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/14.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/14.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/15.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/15.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/15.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/15.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/16.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/16.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/16.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/16.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/17.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/17.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/17.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/17.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/18.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/18.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/18.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/18.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/19.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/19.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/19.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/19.nex': No such file or directory
+/work/tyler333/matrix_assumptions/data/quaternary/1/1.nex
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.log' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/1.nex.log': No such file or directory
+mv: cannot move `/work/tyler333/matrix_assumptions/data/quaternary/output/part_out/simple.trees' to `/work/tyler333/matrix_assumptions/output/quat/partitioned//work/tyler333/matrix_assumptions/data/quaternary/1/1.nex.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/1//work/tyler333/matrix_assumptions/data/quaternary/1/1.nex': No such file or directory
+------------------------------------------------------
+Running PBS epilogue script    - 03-Sep-2019 07:33:29
+------------------------------------------------------
+Checking node qb021 (MS)
+Checking node qb021 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 03-Sep-2019 07:33:31
+------------------------------------------------------
+Exit Status:     1
+Job ID:          690454.qb3
+Username:        tyler333
+Group:           loniusers
+Job Name:        quat_PT
+Session Id:      51892
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=48:00:00
+Resources Used:  cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:02
+Queue Used:      workq
+Account String:  loni_antfbe
+Node:            qb021
+Process id:      52524
+------------------------------------------------------

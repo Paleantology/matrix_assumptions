@@ -1,0 +1,80 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    703220.qb3
+Username:  tyler333
+Group:     loniusers
+Date:      08-Oct-2019 10:08
+Node:      qb058 (48854)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb058
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb058 10:08:34 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 08-Oct-2019 10:08:34
+------------------------------------------------------
+15.nex
+15.nex
+[1570547315.588008] [qb058:49471:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1570547315.587763] [qb058:49472:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1570547315.587671] [qb058:49474:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1570547315.587864] [qb058:49475:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1570547315.588124] [qb058:49473:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/quat/quat_analytical_unpartitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/quat/quat_analytical_unpartitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/bin_repl'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/trin_repl'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/quat'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/quat/quat_analytical_unpartitioned/model_simple.Rev"
+   Processing of file "/work/tyler333/matrix_assumptions/scripts/quat/quat_analytical_unpartitioned/model_simple.Rev" completed
+
+   Running MCMC simulation
+   This simulation runs 1 independent replicate.
+   The simulator uses 85 different moves in a random move schedule with 330 moves per iteration
+
+Iter        |      Posterior   |     Likelihood   |          Prior   |    elapsed   |        ETA   |
+----------------------------------------------------------------------------------------------------
+0           |       -2461.27   |       -2218.54   |       -242.731   |   00:00:00   |   --:--:--   |
+100         |       -1167.93   |       -1010.37   |       -157.556   |   00:00:09   |   --:--:--   |
+------------------------------------------------------
+Running PBS epilogue script    - 08-Oct-2019 10:08:53
+------------------------------------------------------
+Checking node qb058 (MS)
+Checking node qb058 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 08-Oct-2019 10:08:55
+------------------------------------------------------
+Exit Status:     271
+Job ID:          703220.qb3
+Username:        tyler333
+Group:           loniusers
+Job Name:        quat_unpt1
+Session Id:      48853
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=72:00:00
+Resources Used:  cput=00:01:00,mem=9108kb,vmem=230480kb,walltime=00:00:18
+Queue Used:      workq
+Account String:  loni_antfbf
+Node:            qb058
+Process id:      49488
+------------------------------------------------------

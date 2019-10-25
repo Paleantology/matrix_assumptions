@@ -1,0 +1,34 @@
+
+#!/bin/bash
+#PBS -q workq
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=72:00:00
+#PBS -N tri_unpart1
+#PBS -o tri_unpart1.out
+#PBS -j oe
+#PBS -A loni_antfbf
+#PBS -m abe
+#PBS -M courtney.grigsby@selu.edu
+
+
+datapath=/work/tyler333/matrix_assumptions/data/binary/unpart_data/1/
+cd $datapath
+
+for file in *.nex
+do
+echo $file
+if [ -f ../trinary/unpart_data/"$file" ];
+then echo $file
+cp $file bin
+sed 's/0 1/0 1 2/g' bin > bin_repl
+cp ../../trinary/unpart_data/1/"$file" ../../trinary/unpart_data/1/trin
+fi
+
+mpirun -np 10 ~/rb-mpi /work/tyler333/matrix_assumptions/scripts/trinary/tri_analytical_unpartitioned/mcmc_simple.Rev
+mv /work/tyler333/matrix_assumptions/data/binary/unpart_data/1/output/unpart_out/simple.log /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/$file.log
+mv /work/tyler333/matrix_assumptions/data/binary/unpart_data/1/output/unpart_out/simple.trees /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/$file.trees
+mv /work/tyler333/matrix_assumptions/data/binary/unpart_data/1/output/unpart_out/simple.map.tre /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/$file.map.tre
+mv /work/tyler333/matrix_assumptions/data/binary/unpart_data/1/output/unpart_out/simple.majrule.tre /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/$file.majrule.tre
+mv /work/tyler333/matrix_assumptions/data/binary/unpart_data/1/$file /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/processed_nex/$file
+done
+

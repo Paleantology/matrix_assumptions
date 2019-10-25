@@ -1,0 +1,429 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    690722.qb3
+Username:  tyler333
+Group:     loniusers
+Date:      03-Sep-2019 13:33
+Node:      qb315 (62153)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb315
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb315 13:33:52 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 03-Sep-2019 13:33:52
+------------------------------------------------------
+100.nex
+[1567535632.863933] [qb315:62749:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535632.863567] [qb315:62750:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535632.863761] [qb315:62751:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535632.863656] [qb315:62752:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535632.863848] [qb315:62753:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+10.nex
+[1567535633.831257] [qb315:62769:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535633.833111] [qb315:62770:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535633.833074] [qb315:62771:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535633.834155] [qb315:62772:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535633.836255] [qb315:62773:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+11.nex
+[1567535634.807337] [qb315:62788:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535634.807281] [qb315:62789:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535634.808973] [qb315:62790:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535634.810149] [qb315:62791:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535634.812282] [qb315:62792:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+12.nex
+[1567535635.783986] [qb315:62807:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535635.785860] [qb315:62808:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535635.785820] [qb315:62809:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535635.786807] [qb315:62810:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535635.789057] [qb315:62811:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+13.nex
+[1567535636.761042] [qb315:62826:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535636.762991] [qb315:62827:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535636.763030] [qb315:62828:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535636.764023] [qb315:62829:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535636.766027] [qb315:62830:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+14.nex
+[1567535637.739736] [qb315:62845:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535637.739694] [qb315:62846:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535637.741661] [qb315:62848:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535637.742539] [qb315:62849:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535637.742197] [qb315:62847:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+15.nex
+[1567535638.714420] [qb315:62864:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535638.716311] [qb315:62865:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535638.716178] [qb315:62866:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535638.717422] [qb315:62867:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535638.719459] [qb315:62868:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+16.nex
+[1567535639.691522] [qb315:62883:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535639.693541] [qb315:62884:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535639.693345] [qb315:62885:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535639.693617] [qb315:62886:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535639.696660] [qb315:62887:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+17.nex
+[1567535640.668587] [qb315:62902:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535640.670576] [qb315:62903:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535640.670408] [qb315:62904:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535640.671078] [qb315:62905:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535640.673532] [qb315:62906:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+18.nex
+[1567535641.645077] [qb315:62921:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535641.646958] [qb315:62922:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535641.646916] [qb315:62923:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535641.647863] [qb315:62924:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535641.650045] [qb315:62925:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+19.nex
+[1567535642.622082] [qb315:62940:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535642.623980] [qb315:62941:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535642.623947] [qb315:62942:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535642.624884] [qb315:62943:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535642.626462] [qb315:62944:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+1.nex
+[1567535643.599144] [qb315:62959:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535643.601001] [qb315:62960:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535643.600959] [qb315:62961:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535643.601908] [qb315:62962:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1567535643.604060] [qb315:62963:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 5 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/bin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/trin'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/qut'
+   Successfully read one character matrix from file '/work/tyler333/matrix_assumptions/data/cinco/cin'
+   Processing file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   1
+   2
+   Error:	The number of observed states (5) is greater than the dimension of the Q matrix (2)
+   Error:	Problem processing line 43 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/model_simple.Rev"
+   Error:	Problem processing line 33 in file "/work/tyler333/matrix_assumptions/scripts/cinco/cinco_analytical_partitioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/cinco/1/output/part_out/simple.trees': No such file or directory
+------------------------------------------------------
+Running PBS epilogue script    - 03-Sep-2019 13:34:04
+------------------------------------------------------
+Checking node qb315 (MS)
+Checking node qb315 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 03-Sep-2019 13:34:06
+------------------------------------------------------
+Exit Status:     1
+Job ID:          690722.qb3
+Username:        tyler333
+Group:           loniusers
+Job Name:        cinco_pt1
+Session Id:      62152
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=00:10:00
+Resources Used:  cput=00:00:20,mem=393612kb,vmem=2053084kb,walltime=00:00:14
+Queue Used:      workq
+Account String:  loni_antfbe
+Node:            qb315
+Process id:      62977
+------------------------------------------------------

@@ -1,0 +1,345 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    690540.qb3
+Username:  tyler333
+Group:     loniusers
+Date:      03-Sep-2019 10:31
+Node:      qb296 (84791)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb296
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb296 10:31:08 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 03-Sep-2019 10:31:08
+------------------------------------------------------
+100.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+10.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+11.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+12.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+13.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+14.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+15.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+16.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+17.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+18.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+19.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+1.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+20.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+21.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+22.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+23.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+24.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+25.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+26.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+27.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+28.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+29.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+2.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+30.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+31.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+32.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+33.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+34.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+35.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+36.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+37.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+38.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+39.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+3.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+40.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+41.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+42.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+43.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+44.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+45.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+46.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+47.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+48.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+49.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+4.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+50.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+51.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+52.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+53.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+54.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+55.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+56.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+57.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+58.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+59.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+5.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+60.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+61.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+62.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+63.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+64.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+65.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+66.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+67.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+68.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+69.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+6.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+70.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+71.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+72.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+73.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+74.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+75.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+76.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+77.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+78.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+79.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+7.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+80.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+81.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+82.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+83.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+84.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+85.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+86.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+87.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+88.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+89.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+8.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+90.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+91.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+92.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+93.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+94.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+95.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+96.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+97.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+98.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+99.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+9.nex
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/unpart_data/output/unpart_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/quaternary/output/unpart_data/unpart_out/simple.trees': No such file or directory
+------------------------------------------------------
+Running PBS epilogue script    - 03-Sep-2019 10:31:09
+------------------------------------------------------
+Checking node qb296 (MS)
+Checking node qb296 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 03-Sep-2019 10:31:11
+------------------------------------------------------
+Exit Status:     0
+Job ID:          690540.qb3
+Username:        tyler333
+Group:           loniusers
+Job Name:        quat_UNPT
+Session Id:      84790
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=48:00:00
+Resources Used:  cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:02
+Queue Used:      workq
+Account String:  loni_antfbe
+Node:            qb296
+Process id:      85686
+------------------------------------------------------
