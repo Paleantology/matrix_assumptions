@@ -1,0 +1,50 @@
+#NEXUS
+
+Begin data;
+Dimensions ntax=41 nchar=11;
+Format datatype=Standard symbols="012" missing=? gap=-;
+Matrix
+Acanthoponera_minor   20201210210
+Amblyopone_pallipes   20201200110
+Aneuretus   20201200010
+Anomalomyrma_sp   20201200010
+Apomyrma_stygia   20201200110
+Brownimecia_clavata   20201200110
+Camelomecia   20201200110
+Cerapachys_sexspinus   20201220110
+Chalybion_californicum   20201220110
+Chyphotes_mellipes   20201200210
+Formica_fusca   20201210210
+Gerontoformica_gracilis   20201210010
+Gerontoformica_magnus   20201200210
+Gerontoformica_pilosus   20201200210
+Gerontoformica_spiralis   20201200010
+Haidomyrmex_scimitarus   20201200210
+Haidomyrmodes_mammuthus   20201200210
+Haidoterminus_cippus   20201200210
+Heterogyna   20201220110
+Hypoponera_opacior   20201200110
+Kyromyrma   20201210010
+Lasius_californicus   20201210210
+Leptanilla_swani   20201200010
+Leptanilloides_nomada   20201220110
+Leptogenys_diminuta   20201200010
+Martialis_heureka   20201200110
+Metapolybia_cingulata   20201200110
+Myanmyrma_gracilis   20201200010
+Myrmecia_nigriceps   20201220210
+Myrmica_americana   20201200010
+Nothomyrmecia_macrops   20201210010
+Opamyrma_hungvuong   20201200010
+Paraponera_clavata   20201200110
+Platythyrea_punctata   20201200210
+Pogonomyrmex_californicus   20201200110
+Proceratium_stictum   20201200010
+Scolia_verticalis   20201200110
+Sphecomyrma_freyi   20201200110
+Tatuidris_tatusia   20201200210
+Tetraponera_punctulata   20201200010
+Zigrasimecia   20201200010
+;
+End;
+

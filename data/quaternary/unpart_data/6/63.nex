@@ -1,0 +1,50 @@
+#NEXUS
+
+Begin data;
+Dimensions ntax=41 nchar=14;
+Format datatype=Standard symbols="0123" missing=? gap=-;
+Matrix
+Acanthoponera_minor   21123112211203
+Amblyopone_pallipes   33202132112011
+Aneuretus   31202132112113
+Anomalomyrma_sp   02222123123023
+Apomyrma_stygia   01222121223213
+Brownimecia_clavata   01222121223213
+Camelomecia   32202132010113
+Cerapachys_sexspinus   31203132112011
+Chalybion_californicum   11333111120230
+Chyphotes_mellipes   31333111020131
+Formica_fusca   00130120313211
+Gerontoformica_gracilis   13202132001113
+Gerontoformica_magnus   02200333201113
+Gerontoformica_pilosus   02200333201113
+Gerontoformica_spiralis   12201131201113
+Haidomyrmex_scimitarus   12201132301113
+Haidomyrmodes_mammuthus   31201132301112
+Haidoterminus_cippus   12201132301113
+Heterogyna   11333111120230
+Hypoponera_opacior   00222121323211
+Kyromyrma   00232120313233
+Lasius_californicus   00130120313211
+Leptanilla_swani   02222123123023
+Leptanilloides_nomada   02222120123123
+Leptogenys_diminuta   31202132112113
+Martialis_heureka   01222121223232
+Metapolybia_cingulata   31230112301132
+Myanmyrma_gracilis   12201132201113
+Myrmecia_nigriceps   31202132132113
+Myrmica_americana   02222101221232
+Nothomyrmecia_macrops   31202132132113
+Opamyrma_hungvuong   00022123323131
+Paraponera_clavata   31202132112113
+Platythyrea_punctata   01022123223132
+Pogonomyrmex_californicus   01222121221232
+Proceratium_stictum   00022123323131
+Scolia_verticalis   31230112301132
+Sphecomyrma_freyi   02202132110113
+Tatuidris_tatusia   02222120123121
+Tetraponera_punctulata   31202132112113
+Zigrasimecia   03201132101113
+;
+End;
+

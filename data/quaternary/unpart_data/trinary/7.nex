@@ -1,0 +1,50 @@
+#NEXUS
+
+Begin data;
+Dimensions ntax=41 nchar=14;
+Format datatype=Standard symbols="012" missing=? gap=-;
+Matrix
+Acanthoponera_minor   21102220110010
+Amblyopone_pallipes   20101210012110
+Aneuretus   20001210012010
+Anomalomyrma_sp   21001210000020
+Apomyrma_stygia   21000220200020
+Brownimecia_clavata   21000220200020
+Camelomecia   20101210212010
+Cerapachys_sexspinus   20121200212110
+Chalybion_californicum   11202221001022
+Chyphotes_mellipes   11202221102022
+Formica_fusca   20000200202020
+Gerontoformica_gracilis   20102220010010
+Gerontoformica_magnus   20102200212010
+Gerontoformica_pilosus   20102200212010
+Gerontoformica_spiralis   20100220012010
+Haidomyrmex_scimitarus   21100200002010
+Haidomyrmodes_mammuthus   21102220012010
+Haidoterminus_cippus   21100200002010
+Heterogyna   11202221001022
+Hypoponera_opacior   21000200200020
+Kyromyrma   20002200202020
+Lasius_californicus   20000200202020
+Leptanilla_swani   21001210002020
+Leptanilloides_nomada   21000210010020
+Leptogenys_diminuta   20001210012010
+Martialis_heureka   21000220000020
+Metapolybia_cingulata   12000210102020
+Myanmyrma_gracilis   20102200012010
+Myrmecia_nigriceps   20001210012010
+Myrmica_americana   21000220000020
+Nothomyrmecia_macrops   20001210012010
+Opamyrma_hungvuong   20000200200020
+Paraponera_clavata   20101210012010
+Platythyrea_punctata   20002200201020
+Pogonomyrmex_californicus   21000220000020
+Proceratium_stictum   20000200200020
+Scolia_verticalis   12001210102020
+Sphecomyrma_freyi   20102210212010
+Tatuidris_tatusia   21000210010020
+Tetraponera_punctulata   20001210012010
+Zigrasimecia   20102210012010
+;
+End;
+

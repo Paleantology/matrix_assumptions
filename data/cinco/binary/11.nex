@@ -1,0 +1,50 @@
+#NEXUS
+
+Begin data;
+Dimensions ntax=41 nchar=11;
+Format datatype=Standard symbols="01" missing=? gap=-;
+Matrix
+Acanthoponera_minor   10010001001
+Amblyopone_pallipes   10010001001
+Aneuretus   10010001001
+Anomalomyrma_sp   10010001001
+Apomyrma_stygia   10010001001
+Brownimecia_clavata   10010001001
+Camelomecia   10010001001
+Cerapachys_sexspinus   10010001001
+Chalybion_californicum   10010001001
+Chyphotes_mellipes   10010001001
+Formica_fusca   10010001001
+Gerontoformica_gracilis   10010001001
+Gerontoformica_magnus   10010001001
+Gerontoformica_pilosus   10010001001
+Gerontoformica_spiralis   10010001101
+Haidomyrmex_scimitarus   00010001001
+Haidomyrmodes_mammuthus   00010001001
+Haidoterminus_cippus   00010001001
+Heterogyna   10010001001
+Hypoponera_opacior   10010001001
+Kyromyrma   10010001001
+Lasius_californicus   10010001001
+Leptanilla_swani   10010001001
+Leptanilloides_nomada   10010001001
+Leptogenys_diminuta   10010001001
+Martialis_heureka   10010001001
+Metapolybia_cingulata   10010001001
+Myanmyrma_gracilis   10010001001
+Myrmecia_nigriceps   10010001001
+Myrmica_americana   10010001001
+Nothomyrmecia_macrops   10010001001
+Opamyrma_hungvuong   10010001001
+Paraponera_clavata   10010001001
+Platythyrea_punctata   10010001001
+Pogonomyrmex_californicus   10010001001
+Proceratium_stictum   10010001001
+Scolia_verticalis   10010001001
+Sphecomyrma_freyi   10010001001
+Tatuidris_tatusia   10010001001
+Tetraponera_punctulata   10010001001
+Zigrasimecia   10010001001
+;
+End;
+

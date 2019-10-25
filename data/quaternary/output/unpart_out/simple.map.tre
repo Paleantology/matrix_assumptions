@@ -1,0 +1,52 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=41;
+	Taxlabels
+		Acanthoponera_minor
+		Amblyopone_pallipes
+		Aneuretus
+		Anomalomyrma_sp
+		Apomyrma_stygia
+		Brownimecia_clavata
+		Camelomecia
+		Cerapachys_sexspinus
+		Chalybion_californicum
+		Chyphotes_mellipes
+		Formica_fusca
+		Gerontoformica_gracilis
+		Gerontoformica_magnus
+		Gerontoformica_pilosus
+		Gerontoformica_spiralis
+		Haidomyrmex_scimitarus
+		Haidomyrmodes_mammuthus
+		Haidoterminus_cippus
+		Heterogyna
+		Hypoponera_opacior
+		Kyromyrma
+		Lasius_californicus
+		Leptanilla_swani
+		Leptanilloides_nomada
+		Leptogenys_diminuta
+		Martialis_heureka
+		Metapolybia_cingulata
+		Myanmyrma_gracilis
+		Myrmecia_nigriceps
+		Myrmica_americana
+		Nothomyrmecia_macrops
+		Opamyrma_hungvuong
+		Paraponera_clavata
+		Platythyrea_punctata
+		Pogonomyrmex_californicus
+		Proceratium_stictum
+		Scolia_verticalis
+		Sphecomyrma_freyi
+		Tatuidris_tatusia
+		Tetraponera_punctulata
+		Zigrasimecia
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](((((((((Leptanilloides_nomada[&index=40]:0.100115[&brlen_95%_HPD={0.002992,0.194146}],Tatuidris_tatusia[&index=29]:0.039603[&brlen_95%_HPD={2e-06,0.103942}])[&index=42,posterior=0.760057]:0.163227[&brlen_95%_HPD={0.00014,0.346426}],(Metapolybia_cingulata[&index=19]:0.021877[&brlen_95%_HPD={1e-06,0.067566}],Scolia_verticalis[&index=16]:0.077936[&brlen_95%_HPD={0.001511,0.160412}])[&index=43,posterior=0.985329]:0.258298[&brlen_95%_HPD={0.083273,0.451021}])[&index=44,posterior=0.062944]:0.103091[&brlen_95%_HPD={0.000458,0.216576}],Myrmica_americana[&index=22]:0.036901[&brlen_95%_HPD={0.000246,0.104053}])[&index=45,posterior=0.027922]:0.035770[&brlen_95%_HPD={0.001496,0.100638}],((Martialis_heureka[&index=39]:0.019339[&brlen_95%_HPD={1.3e-05,0.060023}],Pogonomyrmex_californicus[&index=37]:0.073474[&brlen_95%_HPD={7.5e-05,0.170842}])[&index=46,posterior=0.070989]:0.018878[&brlen_95%_HPD={4.3e-05,0.058415}],Brownimecia_clavata[&index=28]:0.020969[&brlen_95%_HPD={2.7e-05,0.06199}])[&index=47,posterior=0.048273]:0.021538[&brlen_95%_HPD={0.000232,0.064297}])[&index=48,posterior=0.061524]:0.060517[&brlen_95%_HPD={0.005573,0.130307}],Apomyrma_stygia[&index=11]:0.023926[&brlen_95%_HPD={0.000163,0.068882}])[&index=49,posterior=0.036441]:0.041898[&brlen_95%_HPD={0.002241,0.092102}],Hypoponera_opacior[&index=30]:0.023978[&brlen_95%_HPD={1e-05,0.075641}])[&index=50,posterior=0.028396]:0.070854[&brlen_95%_HPD={0.003633,0.149608}],(((Chalybion_californicum[&index=8]:0.093607[&brlen_95%_HPD={0.015389,0.186205}],Heterogyna[&index=31]:0.029085[&brlen_95%_HPD={4.3e-05,0.089762}])[&index=51,posterior=0.991481]:0.296388[&brlen_95%_HPD={0.065912,0.536659}],Chyphotes_mellipes[&index=27]:0.280257[&brlen_95%_HPD={0.059505,0.523804}])[&index=52,posterior=0.596309]:0.178094[&brlen_95%_HPD={0.00232,0.39564}],(Anomalomyrma_sp[&index=35]:0.019970[&brlen_95%_HPD={5.6e-05,0.058446}],Leptanilla_swani[&index=20]:0.018114[&brlen_95%_HPD={0,0.053184}])[&index=53,posterior=0.998107]:0.257307[&brlen_95%_HPD={0.071344,0.459749}])[&index=54,posterior=0.458116]:0.134102[&brlen_95%_HPD={0.009304,0.299798}])[&index=55,posterior=0.019877]:0.104535[&brlen_95%_HPD={0.007178,0.235661}],((((Formica_fusca[&index=38]:0.019168[&brlen_95%_HPD={2.3e-05,0.056756}],Lasius_californicus[&index=9]:0.017703[&brlen_95%_HPD={2e-06,0.053786}])[&index=56,posterior=0.948415]:0.111418[&brlen_95%_HPD={0.001865,0.225579}],Kyromyrma[&index=32]:0.071191[&brlen_95%_HPD={0.00036,0.184803}])[&index=57,posterior=1.000000]:0.348587[&brlen_95%_HPD={0.151802,0.562478}],(Opamyrma_hungvuong[&index=18]:0.020018[&brlen_95%_HPD={6.6e-05,0.057909}],Proceratium_stictum[&index=4]:0.018207[&brlen_95%_HPD={3e-06,0.056028}])[&index=58,posterior=0.353999]:0.028268[&brlen_95%_HPD={1.6e-05,0.093882}])[&index=59,posterior=0.325603]:0.053310[&brlen_95%_HPD={2.3e-05,0.132503}],Platythyrea_punctata[&index=36]:0.097254[&brlen_95%_HPD={0.006354,0.206222}])[&index=60,posterior=0.513961]:0.131973[&brlen_95%_HPD={0.001108,0.294403}])[&index=61,posterior=0.144818]:0.373731[&brlen_95%_HPD={0.062516,0.768724}],(((((((Aneuretus[&index=13]:0.018227[&brlen_95%_HPD={5.3e-05,0.055325}],Myrmecia_nigriceps[&index=34]:0.017138[&brlen_95%_HPD={1e-05,0.051369}])[&index=62,posterior=0.132040]:0.017742[&brlen_95%_HPD={2.2e-05,0.052404}],Tetraponera_punctulata[&index=17]:0.016036[&brlen_95%_HPD={8e-06,0.050824}])[&index=63,posterior=0.082821]:0.019773[&brlen_95%_HPD={0.000173,0.061364}],(Leptogenys_diminuta[&index=21]:0.018329[&brlen_95%_HPD={1.1e-05,0.057358}],Nothomyrmecia_macrops[&index=7]:0.038725[&brlen_95%_HPD={0.000995,0.096181}])[&index=64,posterior=0.144818]:0.020670[&brlen_95%_HPD={0.000284,0.059507}])[&index=65,posterior=0.996214]:0.098380[&brlen_95%_HPD={0.018888,0.193455}],(Amblyopone_pallipes[&index=15]:0.022378[&brlen_95%_HPD={0.000193,0.069466}],Cerapachys_sexspinus[&index=12]:0.192305[&brlen_95%_HPD={0.080321,0.340811}])[&index=66,posterior=0.994794]:0.188616[&brlen_95%_HPD={0.069641,0.32644}])[&index=67,posterior=0.281117]:0.037096[&brlen_95%_HPD={1.7e-05,0.105281}],(Camelomecia[&index=10]:0.021562[&brlen_95%_HPD={0.000104,0.066003}],Sphecomyrma_freyi[&index=23]:0.123494[&brlen_95%_HPD={0.033924,0.226024}])[&index=68,posterior=0.996214]:0.145590[&brlen_95%_HPD={0.029706,0.268197}])[&index=69,posterior=0.178893]:0.022768[&brlen_95%_HPD={1.9e-05,0.065748}],Paraponera_clavata[&index=6]:0.018615[&brlen_95%_HPD={1.1e-05,0.058848}])[&index=70,posterior=0.986275]:0.318672[&brlen_95%_HPD={0.132013,0.530464}],((((((Haidomyrmex_scimitarus[&index=33]:0.021446[&brlen_95%_HPD={3e-06,0.06772}],Haidoterminus_cippus[&index=14]:0.034972[&brlen_95%_HPD={3.6e-05,0.087018}])[&index=71,posterior=0.971604]:0.190773[&brlen_95%_HPD={0.01256,0.362426}],Haidomyrmodes_mammuthus[&index=2]:0.104113[&brlen_95%_HPD={0.004557,0.21899}])[&index=72,posterior=0.187885]:0.077267[&brlen_95%_HPD={0.000977,0.184733}],(Gerontoformica_magnus[&index=24]:0.019416[&brlen_95%_HPD={3.7e-05,0.060812}],Gerontoformica_pilosus[&index=5]:0.020409[&brlen_95%_HPD={0.000129,0.058311}])[&index=73,posterior=0.999053]:0.194870[&brlen_95%_HPD={0.064624,0.343772}])[&index=74,posterior=0.012305]:0.040871[&brlen_95%_HPD={0.000217,0.116256}],(Myanmyrma_gracilis[&index=41]:0.020415[&brlen_95%_HPD={2.1e-05,0.060678}],Zigrasimecia[&index=26]:0.080021[&brlen_95%_HPD={0.013244,0.162468}])[&index=75,posterior=0.202556]:0.019478[&brlen_95%_HPD={4e-06,0.055965}])[&index=76,posterior=0.032182]:0.060741[&brlen_95%_HPD={0.000987,0.127726}],Gerontoformica_spiralis[&index=25]:0.080556[&brlen_95%_HPD={0.008762,0.172509}])[&index=77,posterior=0.025556]:0.067146[&brlen_95%_HPD={0.002785,0.123717}],Gerontoformica_gracilis[&index=3]:0.045277[&brlen_95%_HPD={0.000174,0.115123}])[&index=78,posterior=0.024136]:0.233625[&brlen_95%_HPD={0.034265,0.425574}])[&index=79,posterior=0.992901]:0.581562[&brlen_95%_HPD={0.2371,0.965443}],Acanthoponera_minor[&index=1]:0.709543[&brlen_95%_HPD={0.336376,1.11203}])[&index=80,posterior=1.000000]:0.000000;
+End;
