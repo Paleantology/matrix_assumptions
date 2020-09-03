@@ -1,7 +1,7 @@
 ################################################################################
 #
 # RevBayes Example: Inferring a Phylogeny of Fossil Bears Using the Mk Model
-# 
+#
 # This file: Runs the full MCMC ...
 #
 # authors:  April M. Wright, Michael J. Landis
@@ -13,9 +13,7 @@
 #######################
 # Import the morphological character matrix #
 # this file contains only the taxa for which morphological characters are available #
-data_bin = readDiscreteCharacterData("binary/bin")
-data_trin = readDiscreteCharacterData("binary/trin")
-morpho <- concatenate(data_bin, data_trin)
+morpho <- readDiscreteCharacterData("file")
 
 
 ## helpers
@@ -23,10 +21,10 @@ mvi = 1
 mni = 1
 taxa <- morpho.names()
 n_taxa <- taxa.size()
-n_branches <- 2 * n_taxa - 2
+n_branches <- 2 * n_taxa - 3
 
 # Load the model files
-source("scripts/model_simple.Rev") # Morphological character change model
+source("scripts/analytical_unpartititioned/model_simple.Rev") # Morphological character change model
 
 ########
 # MCMC #
