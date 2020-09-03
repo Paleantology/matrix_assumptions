@@ -1,0 +1,28 @@
+l#!/bin/bash
+#PBS -q workq
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=72:00:00
+#PBS -N tri_unpart_mis1
+#PBS -o tri_unpart_mis1.out
+#PBS -j oe
+#PBS -A loni_antfbg
+#PBS -m abe
+#PBS -M tyler.tran@selu.edu
+#path to data not scripts(pwd)
+datapath=/work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/
+cd $datapath
+for file in *.nex
+do
+echo $file
+if [ -f ../trinary/simulated_missing_third/1/"$file" ];
+then echo $file
+cp $file bin
+cp ../../trinary/simulated_missing_third/1/"$file" ../../trinary/trin
+fi
+mpirun -np 10 ~/rb-mpi /work/tyler333/matrix_assumptions/scripts/analytical_unpartititioned/mcmc_simple.Rev
+mv /work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/output/part_out/simple.log /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/$file.log
+mv /work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/output/part_out/simple.trees /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/$file.trees
+mv /work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/output/part_out/simple.map.tre /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/$file.map.tre
+mv /work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/output/part_out/simple.majrule.tre /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/$file.majrule.tre
+mv /work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/$file /work/tyler333/matrix_assumptions/output/trinary/unpartitioned/processed_nex/$file
+done
