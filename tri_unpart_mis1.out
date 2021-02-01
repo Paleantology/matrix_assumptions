@@ -1,0 +1,78 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    798299.qb3
+Username:  tyler333
+Group:     loniusers
+Date:      18-Jun-2020 12:44
+Node:      qb379 (86943)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb379
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb379 12:44:37
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 18-Jun-2020 12:44:37
+------------------------------------------------------
+*.nex
+[1592502279.320168] [qb379:87555:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+[1592502279.319642] [qb379:87556:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+[1592502279.319835] [qb379:87557:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+[1592502279.319975] [qb379:87560:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+[1592502279.320417] [qb379:87561:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+[1592502279.319717] [qb379:87552:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+[1592502279.320510] [qb379:87559:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+[1592502279.320760] [qb379:87558:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+[1592502279.320679] [qb379:87553:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+[1592502279.320850] [qb379:87554:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default >
+
+RevBayes version (1.0.12)
+Build from development (59d42d) on Thu Aug  8 11:12:04 CDT 2019
+MPI enabled: using 10 processes.
+
+Visit the website www.RevBayes.com for more information about RevBayes.
+
+RevBayes is free software released under the GPL license, version 3. Type 'license()' for details.
+
+To quit RevBayes type 'quit()' or 'q()'.
+
+
+> source("/work/tyler333/matrix_assumptions/scripts/analytical_unpartititioned/mcmc_simple.Rev")
+   Processing file "/work/tyler333/matrix_assumptions/scripts/analytical_unpartititioned/mcmc_simple.Rev"
+   Error:       Could not find file or path with name "binary/simulated_missing_third/bin"
+   Error:       Problem processing line 16 in file "/work/tyler333/matrix_assumptions/scripts/analytical_unpartititioned/mcmc_simple.Rev"
+> mv: cannot stat `/work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/output/part_out/simple.log': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/output/part_out/simple.trees': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/output/part_out/simple.map.tre': No such file or directory
+mv: cannot stat `/work/tyler333/matrix_assumptions/data/binary/simulated_missing_third/1/output/part_out/simple.majrule.tre': No such file or directory
+mv: target `/work/tyler333/matrix_assumptions/output/trinary/unpartitioned/processed_nex/1.nex' is not a directory
+------------------------------------------------------
+Running PBS epilogue script    - 18-Jun-2020 12:44:40
+------------------------------------------------------
+Checking node qb379 (MS)
+Checking node qb379 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 18-Jun-2020 12:44:42
+------------------------------------------------------
+Exit Status:     1
+Job ID:          798299.qb3
+Username:        tyler333
+Group:           loniusers
+Job Name:        tri_unpart_mis1
+Session Id:      86942
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=72:00:00
+Resources Used:  cput=00:00:06,mem=0kb,vmem=0kb,walltime=00:00:05
+Queue Used:      workq
+Account String:  loni_antfbg
+Node:            qb379
+Process id:      87590
+------------------------------------------------------
+
